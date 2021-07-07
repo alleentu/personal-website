@@ -18,6 +18,11 @@
     "eject": "react-scripts eject",
     "precommit": "pretty-quick --staged"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"[Husky] pre-commit\""
+    }
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
